@@ -14,22 +14,26 @@
 	<div class="navbar-fixed">
 		<nav>
       <div class="nav-wrapper blue darken-4">
+        <div class="">
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="font-size:2rem; margin-left:3rem;">menu</i></a>
+  </div>
       <ul id="slide-out" class="side-nav">
     <li><div class="userView">
-      <img class="background" src="images/office.jpg">
-      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#!name"><span class="white-text name">John Doe</span></a>
-      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      <img class="background" src="http://www.agenciasinc.es/var/ezwebin_site/storage/images/noticias/apagones-en-la-corteza-cerebral-explican-el-comportamiento-en-red-de-las-neuronas/5337859-4-esl-MX/Apagones-en-la-corteza-cerebral-explican-el-comportamiento-en-red-de-las-neuronas_image_380.jpg">
+      <a href="http://www.facebook.com/yapz96"><img class="circle" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12042830_10208196831424457_3657069567025053180_n.jpg?oh=ecd0a58af6909de8471459f12b5b6c0e&oe=583D4360&__gda__=1484684589_6b221b20a1616a310b78e47c87e2ee3d"></a>
+      <a href="#!name"><span class="white-text name">Yojan Pardo</span></a>
+      <a href="#!email"><span class="white-text email">yojan.pardo@gmail.com</span></a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
+    <div class="collection" style="border:0px;">
+    <li><a href="index.html"><i class="material-icons ">cloud</i>Inicio</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li><a class="subheader">Más articulos</a></li>
+    <li><a class="waves-effect collection-item active" href="instalacion.html">Instalación Windows XP</a></li>
+    <li><a class="waves-effect" href="dualboot.html">Instalación dual boot</a></li>
+    <li><a class="waves-effect" href="mainboard.html">Main board</a></li>
+    <li><a class="waves-effect" href="archivos.html">Archivos entre sistemas</a></li>
+    </div>  
   </ul>
-  <div class="">
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons hide-on-med-and-up" style="font-size:2rem; margin-left:1rem;">menu</i><i class="material-icons hide-on-small-only hide-on-large-only" style="font-size:2rem; margin-left:4rem;">menu</i></a>
-  </div>
           <a href="#" class="brand-logo hide-on-med-and-down titulo">Instalación Windows XP</a>
           <a href="#" class="brand-logo hide-on-large-only hide-on-small-only">Instalación Windows XP</a>
           <a href="#" class="brand-logo hide-on-med-and-up">Instalación WXP</a>
@@ -200,12 +204,18 @@
         </div>
     </footer>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-    $('.materialboxed').materialbox();
-  });
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script> 
+    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+     <script type="text/javascript">
+       $('.button-collapse').sideNav({
+            menuWidth: 240, // Default is 240
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+       $('.collapsible').collapsible();
     </script>
 </body>
 </html>
