@@ -14,23 +14,42 @@
 	<div class="navbar-fixed">
 	<nav>
 	    <div class="nav-wrapper blue darken-4">
-	      	<a href="index.html" class="brand-logo">Sistemas operativos</a>
+	    <ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+      <img class="background" src="images/office.jpg">
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <div class="">
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="font-size:2rem; margin-left:3rem;">menu</i></a>
+  </div>
+          <a href="index.html" class="brand-logo hide-on-med-and-down titulo">Sistemas operativos</a>
+          <a href="index.html" class="brand-logo hide-on-large-only hide-on-small-only">Sistemas operativos</a>
+          <a href="index.html" class="brand-logo hide-on-med-and-up">S.O.</a>
 	      	<ul id="nav-mobile" class="right hide-on-med-and-down">
 	        	<li><a href="index.html">Inicio</a></li>
 	      	</ul>
-	    </div>
+	    </div>        
 	  </nav>
+
 	</div>
 	<div class="container">
 		<div class="row">
 	        <div class="col s12 m6">
-          		<div class="card">
+          		<div class="card hoverable">
             		<div class="card-image">
               			<img src="assets/board.jpg">
               			<span class="card-title">Board</span>
             		</div>
                 <div class="card-content">
-              			<p>Las partes principales de la board, arranque del S.O, perifericos internos y externos <br>Click en el enlace de abajo</p>
+              			<p class="flow-text">Las partes principales de la board, arranque del S.O, perifericos internos y externos <br>Click en el enlace de abajo</p>
                 </div>
             		<div class="card-action">
               			<a href="mainboard.html">La mainboard</a>
@@ -44,7 +63,7 @@
               			<span class="card-title black-text">Instalación WXP</span>
             		</div>
             		<div class="card-content">
-              			<p>Como se realiza la instalación de Windows XP paso a paso y lo que va sucediendo a medida que avanzamos.<br>Click en el enlace de abajo.</p>
+              			<p class="flow-text">Instalación de Windows XP paso a paso y lo que va sucediendo a medida que avanzamos.<br>Click en el enlace de abajo.</p>
             		</div>
             			<div class="card-action">
               			<a href="instalacion.html">Instalación de Windows XP</a>
@@ -55,10 +74,10 @@
         		<div class="card">
               <div class="card-image">
             	 <img src="assets/wl.png">
-            	 <span class="card-title">Archivos compartidos</span>
+            	 <span class="card-title black-text">Archivos compartidos</span>
               </div>
             <div class="card-content">
-            		<p>Cuando tenemos una PC dual boot con un sistema windows y uno linux, desde linux podemos ver los archivos de windows, pero nos encontramos con la sorpresa de que desde windows no podemos ver nuestros archivos en linux. Aquí te explico como ver tus archivos de forma bidireccional.<br><br>Click en el enlace de abajo para más información</p>
+            		<p class="flow-text">Cuando tenemos una PC dual boot con un sistema windows y uno linux, desde linux podemos ver los archivos de windows, pero nos encontramos con la sorpresa de que desde windows no podemos ver nuestros archivos en linux. Aquí te explico como ver tus archivos de forma bidireccional.<br><br>Click en el enlace de abajo para más información</p>
             </div>
             <div class="card-action">
             	<a href="archivos.html">Viendo archivos entre sistemas</a>
@@ -72,7 +91,7 @@
                <span class="card-title">Instalación Dual Boot</span>
               </div>
             <div class="card-content">
-                <p>Windows y GNU/Linux son dos sistemas operativos muy diferentes, cada unos con sus ventajas y desventajas, esto hace que muchos usuarios quieran tener uno u otro, lo cual los pone en un dilema, ¿cúal sistema elegir? Bueno pues puedes tener ambos en una pc con dual boot.<br>Si quieres ver como se hace haz click en el enlace de abajo para ver paso a paso.</p>
+                <p class="flow-text">Windows y GNU/Linux son dos sistemas operativos muy diferentes, cada unos con sus ventajas y desventajas, esto hace que muchos usuarios quieran tener uno u otro, lo cual los pone en un dilema, ¿cúal sistema elegir? Bueno pues puedes tener ambos en una pc con dual boot.<br><br class="hide-on-large-only"><br><br>Click en el enlace de abajo para ver paso a paso.</p>
             </div>
             <div class="card-action">
               <a href="dualboot.html">Instalación dual</a>
@@ -80,8 +99,8 @@
           </div>
         </div>
       	</div>
-    	  	<div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; right: 24px;">
-    			<a class="btn-floating btn-large red">
+    	  	<div class="fixed-action-btn horizontal click-to-toggle hide" style="bottom: 45px; right: 24px;">
+    			<a class="btn-floating btn-large red waves-circle waves-effect waves-purple">
       				<i class="material-icons">menu</i>
     			</a>
     			<ul>
@@ -98,7 +117,7 @@
             <div class="row">
               	<div class="col l6 s12">
                 	<h5 class="white-text">Información</h5>
-                	<p class="grey-text text-lighten-4">Todo lo que necesitas saber y algo más del funcionamiento de tu pc, desde el hardware hasta el software.</p>
+                	<p class="grey-text text-lighten-4 text-flow">Todo lo que necesitas saber y algo más del funcionamiento de tu pc, desde el hardware hasta el software.</p>
               	</div>
               	<div class="col l4 offset-l2 s12">
                 	<h5 class="white-text">Links</h5>
@@ -117,6 +136,17 @@
     </footer>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script> 
+    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+     <script type="text/javascript">
+       $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 240
+            edge: 'right', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+       $('.collapsible').collapsible();
+    </script>
 </body>
 </html>

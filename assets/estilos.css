@@ -1,10 +1,14 @@
 body{
-	background: #EEEEEE;
+	background: #E0E0E0;
 
 }
 .container{
-	padding-top: 5%;
+	padding-top: 5rem;
 }
 .footer-copyright{
 	padding: 0% 10%;
+}
+.titulo{
+	margin-left: 13rem;
+	margin-right: 10rem;
 }
