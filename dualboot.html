@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8"/>
-  <title>Instalación dual</title>
+  <title>Instalación Ubuntu server</title>
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="assets/estilos.css">
@@ -12,75 +12,193 @@
 </head>
 <body>
   <div class="navbar-fixed">
-  <nav>
+    <nav>
       <div class="nav-wrapper blue darken-4">
         <div class="">
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons" style="font-size:2rem; margin-left:3rem;">menu</i></a>
-  </div>
-      <ul id="slide-out" class="side-nav">
-    <li><div class="userView">
-      <img class="background" src="assets/neuronas.jpg">
-      <a href="http://www.facebook.com/yapz96"><img class="circle" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12042830_10208196831424457_3657069567025053180_n.jpg?oh=ecd0a58af6909de8471459f12b5b6c0e&oe=583D4360&__gda__=1484684589_6b221b20a1616a310b78e47c87e2ee3d"></a>
-      <a href="#!name"><span class="white-text name">Yojan Pardo</span></a>
-      <a href="#!email"><span class="white-text email">yojan.pardo@gmail.com</span></a>
-    </div></li>
-    <div class="collection" style="border:0px;">
-    <li><a href="index.html" class="waves-effect active"><i class="material-icons">home</i>Inicio</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect" href="instalacion.html">Instalación Windows XP</a></li>
-    <li><a class="waves-effect collection-item active" href="dualboot.html">Instalación dual boot</a></li>
-    <li><a class="waves-effect" href="mainboard.html">Main board</a></li>
-    <li><a class="waves-effect" href="archivos.html">Archivos entre sistemas</a></li>
-    </div>  
-  </ul>
-          <a href="index.html" class="brand-logo hide-on-med-and-down titulo">Instalacion dual boot</a>
-          <a href="index.html" class="brand-logo hide-on-large-only hide-on-small-only">Dual boot</a>
-          <a href="index.html" class="brand-logo hide-on-med-and-up">Dual boot</a>
+          <a href="#" data-activates="slide-out" class="button-collapse hide-on-small-only hide-on-large-only"><i class="material-icons" style="font-size:2rem; margin-left:3rem;">menu</i></a>
+          <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons" style="font-size:2rem; margin-left:1rem;">menu</i></a>
+        </div>
+        <ul id="slide-out" class="side-nav">
+          <li>
+            <div class="userView">
+              <img class="background" src="assets/neuronas.jpg">
+              <a href="http://www.facebook.com/yapz96" target="_blank"><img class="circle" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12042830_10208196831424457_3657069567025053180_n.jpg?oh=ecd0a58af6909de8471459f12b5b6c0e&oe=583D4360&__gda__=1484684589_6b221b20a1616a310b78e47c87e2ee3d"></a>
+              <a href="#!name"><span class="white-text name">Yojan Pardo</span></a>
+              <a href="#!email"><span class="white-text email">yojan.pardo@gmail.com</span></a>
+            </div>
+          </li>
+          <div class="collection" style="border:0px;">
+            <li><a href="index.html"><i class="material-icons ">home</i>Inicio</a></li>
+            <li><div class="divider"></div></li><br>
+            <li><a class="waves-effect" href="instalacion.html">Instalación Windows XP</a></li>
+            <li><a class="waves-effect collection-item active" href="dualboot.html">Instalando Ubuntu Gnome</a></li>
+            <li><a class="waves-effect" href="mainboard.html">Main board</a></li>
+            <li><a class="waves-effect" href="archivos.html">Archivos entre sistemas</a></li>
+            <li><a class="waves-effect" href="archivos.html">Instalando ubuntu server</a></li>
+          </div>  
+        </ul>
+          <a href="#" class="brand-logo hide-on-med-and-down titulo">¿Cómo instalar Ubuntu Gnome?</a>
+          <a href="#" class="brand-logo hide-on-large-only hide-on-small-only">Instalando Ubuntu Gnome</a>
+          <a href="#" class="brand-logo hide-on-med-and-up">Ubuntu Gnome</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="index.html">Inicio</a></li>
           </ul>
-      </div>        
+      </div>
     </nav>
   </div>
   <div class="container">
     <div class="row">
-        <div class="col s12 m6">
-            <div class="card">
-              <div class="card-image">
-               <img src="http://www.muycomputer.com/wp-content/uploads/2015/04/Arranque_dual_0.jpg">
-               <span class="card-title">Instalación Dual Boot</span>
-              </div>
-            <div class="card-content">
-                <p class="flow-text">Windows y GNU/Linux son dos sistemas operativos muy diferentes, cada unos con sus ventajas y desventajas, esto hace que muchos usuarios quieran tener uno u otro, lo cual los pone en un dilema, ¿cúal sistema elegir? Bueno pues puedes tener ambos en una pc con dual boot.<br><br class="hide-on-large-only"><br><br>Click en el enlace de abajo para ver paso a paso.</p>
+      <div class="col s12 m12">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title"><h2>Antes de la instalación</h2></span>
+            <p>Ubuntu es un sistema operativo basado en debian lo que lo hace una opción muy segura entre todas las que exiten ya que tiene un gran respaldo de la comunidad, es bastante estable, cuenta con una gran cantidaad de repositorios, etc. En este caso vamos a instalarlo con la versión de escritorio Gnome.</p>
+            <h3>Requisitos mínimos</h3>
+            <ul>
+              <li type="disk">* Procesador 1 GHz(recomendado dualcore 2.4GHz)</li>
+              <li type="disk">* 7GB libres en disco duro (recomendado 40GB)</li>
+              <li type="disk">* 1.5GB de RAM (Recomendado 3GB)</li>
+            </ul>
+          </div>
+          <a href="https://ubuntugnome.org/download/" target="_blank">
+            <div class="card-action white">
+              <h3 class="blue-text darken-4 center-align" style="font-size:2rem; padding:0px;"><strong>Aquí puedes descargar Ubuntu Gnome</strong></h3>
             </div>
-            <div class="card-action">
-              <a href="dualboot.html">Instalación dual</a>
-            </div>
+          </a>
+        </div>
+      </div>
+    <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/Ubgnome/1.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4 flow-text">1. Selección</span>
+            <p class="flow-text">Despues de insertar nuestro disco o usb con Ubuntu Gnome nos encontramos con una interfaz gráfica con la que podemos interactuar con el sistema operativo mientras se instala, En este caso vamos a instalar ubuntu junto a windows para tener dual boot así que vamos a seleccionar la opcion de probar Ubunu</p>
           </div>
         </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/Ubgnome/2.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title black-text">2. Particionando el disco</span>
+            <p class="flow-text">Para particionar nuestro disco vamos a usar Gparted, una aplicación que viene preinstalada en el live, y vamos a crear una nueva partición extendida del tamaño total del disco que vamos a usar.</p>
+          </div>
         </div>
-          <div class="fixed-action-btn horizontal click-to-toggle hide" style="bottom: 45px; right: 24px;">
-          <a class="btn-floating btn-large red waves-circle waves-effect waves-purple">
-              <i class="material-icons">menu</i>
-          </a>
-          <ul>
-              <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-          </ul>
+      </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/Ubgnome/3.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">3. Partición SWAP</span>
+          <p class="flow-text">Creamos una partición de la mitad de la RAM que tengamos, como sistema de archivos le ponemos linux-swap, esta partición lo que hace es ayudar a la RAM a sostener los procesos repetitivos para evitar que se llegue a colgar en algún momento</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/Ubgnome/4.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">4. Partición raíz</span>
+            <p class="flow-text">La siguiente partición es en la que se va a instalar el sistema operativo minimo puede ser de 2GB pero lo recomendable es dejarla de unos 12GB, sistema de ficheros va a ser ext4 y como etiqueta le ponemos <cite>"/"</cite></p>
+          </div>
+        </div>
+      </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/Ubgnome/14.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">5. Partición home</span>
+          <p class="flow-text">La partición home es en la que se almacena toda la información que nosotros almacenemos en la pc, el tamaño va a ser de todo lo que quede sobrando. Esta partición la hacemos para guardar nuestra información, así cuando querramos instalar otra distribucion de linux la instalamos sobre <cite>"/"</cite> y de esta forma nuestra informacion queda intacta en <cite>/home.</cite></p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/Ubgnome/5.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">6. Preparando instalación</span>
+          <p class="flow-text">Despues de tener listas nuestras particiones vamos a picarle a la palomita para que guarden los cambios, cerramos el Gparted, picamos en el icono que dice intalar ubuntu gnome, seleccionamos nuestro idioma, continuar, si tenemos una buena conexión a internet y no necesitamos apurarnos le damos en instalar actualizaciones y continuar.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/Ubgnome/6.png">
+        </div>
+        <div class="card-content">
+        <span class="card-title grey-text text-darken-4">7. Tipo de instalación</span>
+          <p class="flow-text">Podemos darle en instalar junto a windows pero vamos a hacerlo manualmente, entonces le picamos a más opciones y a continuar.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/Ubgnome/10.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">8. Seleccionando las particiones</span>
+            <p class="flow-text">Aquí simplemete seleccionamos las particiones que creamos anteriormente en Gparted y le damos a intalar y continuar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/Ubgnome/12.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">9. Creando el usuario</span>
+            <p class="flow-text">Aqui solo le damos nombre a la maquina, nombre al usuario, agregamos una contraseña y le damos en continuar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/Ubgnome/13.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">10. Finalizando</span>
+            <p class="flow-text">Llegados a este punto lo unico que debemos hacer es esperar a que se termine de instalar nuestro Ubuntu Gnome.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/Ubgnome/15.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">11. Listo</span>
+            <p class="flow-text">Ya tenemos nuestro Ubuntu gnome listo para que lo podamos usar .</p>
+          </div>
         </div>
       </div>
   </div>
+      
   <footer class="page-footer  blue darken-4">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
                   <h5 class="white-text">Información</h5>
-                  <p class="grey-text text-lighten-4 text-flow">Todo lo que necesitas saber y algo más del funcionamiento de tu pc, desde el hardware hasta el software.</p>
+                  <p class="grey-text text-lighten-4">Todo lo que necesitas saber y algo más del funcionamiento de tu pc, desde el hardware hasta el software.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Links</h5>
+                  <h5 class="white-text">Contacto</h5>
                   <ul>
                       <li><a class="github-button" href="https://github.com/Yojanpardo/S.O" data-icon="octicon-eye" data-style="mega" data-count-href="/Yojanpardo/S.O/watchers" data-count-api="/repos/Yojanpardo/S.O#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch Yojanpardo/S.O on GitHub">Watch</a></li>
                       <li><a target="_blank" href="https://twitter.com/_yojanpardo" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @_yojanpardo</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
