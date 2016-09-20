@@ -10,4 +10,4 @@ Este repositorio está dedicado para realizar los trabajos infograficos
 * Conección punto a punto
 * Qué es una dirreción ip, pe, ms, DNS.
 * Dominio, Grupo de trabajo
-* 
+* El laboratorio de elastixs
