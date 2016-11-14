@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Instalación Ubuntu server</title>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/estilos.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav>
+      <div class="nav-wrapper blue darken-4">
+        <div class="">
+          <a href="#" data-activates="slide-out" class="button-collapse hide-on-small-only hide-on-large-only"><i class="material-icons" style="font-size:2rem; margin-left:3rem;">menu</i></a>
+          <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i class="material-icons" style="font-size:2rem; margin-left:1rem;">menu</i></a>
+        </div>
+        <ul id="slide-out" class="side-nav">
+          <li>
+            <div class="userView">
+              <img class="background" src="assets/neuronas.jpg">
+              <a href="http://www.facebook.com/yapz96" target="_blank"><img class="circle" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xta1/v/t1.0-9/12042830_10208196831424457_3657069567025053180_n.jpg?oh=ecd0a58af6909de8471459f12b5b6c0e&oe=583D4360&__gda__=1484684589_6b221b20a1616a310b78e47c87e2ee3d"></a>
+              <a href="#!name"><span class="white-text name">Yojan Pardo</span></a>
+              <a href="#!email"><span class="white-text email">yojan.pardo@gmail.com</span></a>
+            </div>
+          </li>
+          <div class="collection" style="border:0px;">
+            <li><a href="index.html"><i class="material-icons ">home</i>Inicio</a></li>
+            <li><div class="divider"></div></li><br>
+            <li><a class="waves-effect" href="instalacion.html">Instalación Windows XP</a></li>
+            <li><a class="waves-effect" href="dualboot.html">Instalación Ubuntu Gnome</a></li>
+            <li><a class="waves-effect" href="mainboard.html">Main board</a></li>
+            <li><a class="waves-effect" href="archivos.html">Archivos entre sistemas</a></li>
+            <li><a class="waves-effect collection-item active" href="archivos.html">Instalando ubuntu server</a></li>
+            <li><a class="waves-effect" href="configuracion-server.html">Configurando un server</a></li>
+          </div>  
+        </ul>
+          <a href="#" class="brand-logo hide-on-med-and-down titulo">¿Cómo instalar Ubuntu server?</a>
+          <a href="#" class="brand-logo hide-on-large-only hide-on-small-only">Instalando Ubuntu server</a>
+          <a href="#" class="brand-logo hide-on-med-and-up">Ubuntu server</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Inicio</a></li>
+          </ul>
+      </div>
+    </nav>
+	</div>
+	<div class="container">
+		<div class="row">
+      <div class="col s12 m12">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title"><h2>Antes de la instalación</h2></span>
+            <p>Ubuntu Server es un sistema operativo tipo servidor sin interfaz grafica, más que todo es usado para servidores web. Un servidor es una maquina que nos proporcionaalgún servicio, puede ser de bases de datos, servidor de archivos, etc.</p>
+            <h3>Requisitos mínimos</h3>
+            <ul>
+              <li type="disk">* 256MB de RAM (recomendado 1GB)</li>
+              <li type="disk">* Disco duro 2GB de espacio disponible (recomendado unos 40GB para poder manter unos 25 usuarios.) </li>
+              <li type="disk">* Procesador AMD o Intel 32 o 64 bits (recomendado dualcore a 2.4GHz)</li>
+            </ul>
+          </div>
+          <a href="http://www.ubuntu.com/download/server" target="_blank">
+            <div class="card-action white">
+              <h3 class="blue-text darken-4 center-align" style="font-size:2rem; padding:0px;"><strong>Aquí puedes descargar Ubuntu server</strong></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+   	<div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/1.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4 flow-text">1. Idioma</span>
+            <p class="flow-text">Despues de insertar nuestro disco o usb con ubuntu server y encender nuerstro pc nos aparecera una interfaz en la cual no veremos el mouse, haremos todo desde el teclado y lo primero es seleccionar el idioma en el que vamos a instalar nuestro Ubuntu server, para hacerlo nos desplazamos con las flechasde arriba y abajo o la tecla tab, luego precionamos enter</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/2.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title black-text">2. Inicia la instalación</span>
+            <p class="flow-text">Despues de seleccionar el idioma nos aparece la interfaz que vimos detras de esta tarjeta, le damos en instalar ubuntu server (la primera opción), presionamos enter para continuar.</p>
+          </div>
+        </div>
+      </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/ubserver/3.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">3. Zona horaria</span>
+          <p class="flow-text">A continuación seleccionamos nuestro país para que ubuntu server reconozca nuestra fecha y zona horaria.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/4.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">4. Configurando el teclado</span>
+            <p class="flow-text">Una vez terminado el proceso de formato, el programa de instalación hace una revisión de los discos para asegurarse de que se formatearon de forma correta y así prevenir futuros errores del sistema</p>
+          </div>
+        </div>
+      </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/ubserver/5.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">5. Nombre de la máquina</span>
+          <p class="flow-text">Ingresamos el nombre que le vamos a dar a nuestra maquina.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/ubserver/7.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">6. Nombre de usuario</span>
+          <p class="flow-text">Ingresamos nuestro nombre de usuario. Si, es diferente del nombre de la maquina.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/ubserver/8.png">
+        </div>
+        <div class="card-content">
+        <span class="card-title grey-text text-darken-4">7. COnfigurando contraseña</span>
+          <p class="flow-text">A nuestro usuario recien creado le asignamos una contraseña, damos en continuar, la verificamos y nuevamente en continuar.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/ubserver/9.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">8. Cifrando información</span>
+            <p class="flow-text">El cifrar la carpeta personal da un plus a la seguridad de nuestro server pero yo recomiendo no cifrarla ya que al tenerlo cifrado a la hora de hacer busquedas es algo más lento el acceso a la información pero si lo deseas puedes cifrar tu carpeta personal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/10.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">9. Configurando la hora</span>
+            <p class="flow-text">Si nuestra zona fue configurada correctamente aqui le damos en si pero si no configuramos la hora manualmente, generalmente el instalador hace todo automaticamente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/11.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">10. Particionando el disco</span>
+            <p class="flow-text">Si estamos instalando el server en una maquina que está destinada exculsivamente para el server seleccionamos la segunda opción esto para que haga las particiones lógicas en el disco duro.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/12.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">11. Seleccionando el disco</span>
+            <p class="flow-text">Seleccionamos el disco que queremos particionar y oprimimos enter para continuar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/13.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">12. aceptando los cambios</span>
+            <p class="flow-text">Selecionamos si para que se empiecen a particionar los discos y la instalación del sistema comience.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/14.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">13. Tamaño del disco</span>
+            <p class="flow-text">Seleccionamos todo el tamaño del disco y el intalador hará automaticamente todo el proceso departicionamiento.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/15.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">14. Particiones LVM</span>
+            <p class="flow-text">LVM o Logical Volume Manager. Aquí el asistente de particionamiento logico nos indica que es lo que va a suceder a continuación, selecionamos si y le damos enter para continuar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/16.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">15. Instalando el sistema</span>
+            <p class="flow-text">Si todo salió correctamente vamos a ver una barra de carga que dice que se está instalando el sistema operativo. Solo debemos esperar a que termine y listo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/17.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">16. Gestor de paquetes</span>
+            <p class="flow-text">Aquí puedes configurar el gestor de paquetes manualmente pero si lo dejas vacio(es lo que recomiendo) toma el gestor de paquetes por defecto de ubuntu que es apt.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/19.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">17. Actualizaciones automaticas</span>
+            <p class="flow-text">En cuanto a los servidores, yo recomiendo dejarlo sin actualizaciones automáticas ya que puede llegar a ocurrir que despues de una actualización algo se dañe en nuestro server.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/20.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">18. Gestor de arranque</span>
+            <p class="flow-text">Al finalizar nos muestra si queremos instalar el gestor de arranque grub, le damos que si y luego le damos continuar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/ubserver/22.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">19. Finalizado</span>
+            <p class="flow-text">Listo, eso fue todo, ahora ya tenemos nuestro ubuntu server instalado y listo para ser configurado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <a href="http://www.ubuntu.com/download/server" target="_blank">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title"><h4 class="blue-text darken-4 center-align"><strong>Descarga aquí Ubuntu server 15.10</strong></h4></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+      
+  <footer class="page-footer  blue darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Información</h5>
+                  <p class="grey-text text-lighten-4">Todo lo que necesitas saber y algo más del funcionamiento de tu pc, desde el hardware hasta el software.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Contacto</h5>
+                  <ul>
+                      <li><a class="github-button" href="https://github.com/Yojanpardo/S.O" data-icon="octicon-eye" data-style="mega" data-count-href="/Yojanpardo/S.O/watchers" data-count-api="/repos/Yojanpardo/S.O#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch Yojanpardo/S.O on GitHub">Watch</a></li>
+                      <li><a target="_blank" href="https://twitter.com/_yojanpardo" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @_yojanpardo</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+                      <li><a target="_blank" class="github-button" href="https://github.com/Yojanpardo" data-style="mega" data-count-href="/Yojanpardo/followers" data-count-api="/users/Yojanpardo#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @Yojanpardo on GitHub">Follow @Yojanpardo</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            Sistemas Operativos&copy 2016 Yojan Pardo Zabala
+            <a class="grey-text text-lighten-4 right" href="http://www.unicundi.edu.co" target="_blank">Universidad de cundinamarca</a>
+        </div>
+    </footer>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+     <script type="text/javascript">
+       $('.button-collapse').sideNav({
+            menuWidth: 240, // Default is 240
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+       $('.collapsible').collapsible();
+    </script>
+</body>
+</html>
